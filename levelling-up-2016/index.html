@@ -53,15 +53,16 @@ excerpt: Levelling Up 2016, a day of self-development workshops on habits, mindf
 
     <div class="row">
       <div class="col-md-6 col-md-offset-3 text-center" style="padding: 30px">
-        <form action="http://getsimpleform.com/messages?form_api_token=5e8275a581923ab945239ad5e4785604" method="post">
-          <div class="form-group">
-            <input type="email" name="email" class="form-control" placeholder="Your Email *" required>
-            <p class="help-block text-danger"></p>
-          </div>
-          <input type="submit" value="Join In" class="btn btn-xl" onclick="ga('send', 'event', 'form', 'email-signup', 'levelling-up-2015', 1);">
-          <br>
-          <a href="#questions" style="color: #333; font-size:13pt">or find out more</a>
-        </form>
+
+        {% include mailchimp-signup.html %}
+        <br>
+        <div>
+          <a href="#questions" class="text-center page-scroll">
+            <div style="text-decoration: underline; font-size:13pt">find out more</div>
+            <i class="fa fa-angle-double-down" style="text-decoration: none; display:block; color:#B22222; font-size: 50px;"></i>
+          </a>
+        </div>
+
       </div>
     </div>
   </div>
@@ -160,7 +161,14 @@ excerpt: Levelling Up 2016, a day of self-development workshops on habits, mindf
         </ol>
       </div>
     </div>
-
+    <div class="row">
+      <div class="col-lg-12">
+          <a href="#instructors" class="text-center page-scroll">
+            <div style="text-decoration: underline; font-size:13pt">find out more</div>
+            <i class="fa fa-angle-double-down" style="text-decoration: none; display:block; color:#B22222; font-size: 50px;"></i>
+          </a>
+      </div>
+    </div>
 </section>
 
 
@@ -280,6 +288,14 @@ excerpt: Levelling Up 2016, a day of self-development workshops on habits, mindf
             </div>
         </div>
     </div>
+    <div class="row">
+      <div class="col-lg-12">
+          <a href="#contact" class="text-center page-scroll">
+            <div style="text-decoration: underline; font-size:13pt">find out more</div>
+            <i class="fa fa-angle-double-down" style="text-decoration: none; display:block; color:#B22222; font-size: 50px;"></i>
+          </a>
+      </div>
+    </div>
 </section>
 
 
@@ -291,14 +307,7 @@ excerpt: Levelling Up 2016, a day of self-development workshops on habits, mindf
     </div>
     <div class="row">
       <div class="col-md-6 col-md-offset-3 text-center" style="padding: 30px">
-        <form action="http://getsimpleform.com/messages?form_api_token=5e8275a581923ab945239ad5e4785604" method="post">
-          <div class="form-group">
-            <input type="email" name="email" class="form-control" placeholder="Your Email *" required>
-            <p class="help-block text-danger"></p>
-          </div>
-          <input type="submit" value="Join In" class="btn btn-xl" onclick="ga('send', 'event', 'form', 'email-signup', 'levelling-up-2015', 1);">
-          <br>
-        </form>
+        {% include mailchimp-signup.html %}
       </div>
     </div>
 </section>
