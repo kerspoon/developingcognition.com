@@ -4,12 +4,12 @@ title: Levelling Up 2016
 excerpt: Levelling Up 2016, a day of self-development workshops on habits, mindfulness, communication, happiness and more.
 ---
 
-<header>
+<header class="header-presentation">
   <div class="container">
     <div class="intro-text">
       <div class="intro-lead-in"></div>
       <h1 class="intro-heading">Levelling Up 2016</h1>
-      <a href="#about" class="page-scroll btn btn-xl">Tell Me More</a>
+      <a href="#about" class="page-scroll btn btn-xl" onclick="clickEvent('w-more')">Tell Me More</a>
     </div>
   </div>
 </header>
@@ -56,11 +56,12 @@ excerpt: Levelling Up 2016, a day of self-development workshops on habits, mindf
 
         {% include ticket-sales.html %}
 
-        <a href="http://www.brownpapertickets.com/event/2491382" class="btn btn-xl" style="margin: 30px; padding: 15px 30px;">Tickets</a>
+        <a href="http://www.brownpapertickets.com/event/2491382" class="btn btn-xl" style="margin: 30px; padding: 15px 30px;"  onclick="clickEvent('w-tickets-1')">Tickets</a>
 
         <div class="alert alert-success" role="alert" style="font-size: 17px;">
           <strong>Can't make the date?</strong> If you are interested in the course
-          but cannot make that date please sign up to our <a class="page-scroll" href="#contact" style="font-weight: bold;">mailing list</a>
+          but cannot make that date please sign up to our
+          <a class="page-scroll" href="#contact" style="font-weight: bold;" onclick="clickEvent('w-mailing-list-1')">mailing list</a>
           and we will let you know when the next event is on.
         </div>
 
@@ -403,6 +404,18 @@ excerpt: Levelling Up 2016, a day of self-development workshops on habits, mindf
                   <li class="list-group-item"><i class="fa fa-user"></i> name: James Brooks</li>
                   <li class="list-group-item"><i class="fa fa-envelope"></i> email: <a href="mailto:james@developingcognition.com">james@developingcognition.com</a></li>
                   <li class="list-group-item"><i class="fa fa-phone"></i> tel: <a href="tel:+447429552244">07429 552244</a></li>
+                  <li class="list-group-item">
+                    <ul class="list-inline social-buttons text-center">
+                        <li><a href="mailto:james@developingcognition.com" style="background-color: #5AB764;"><i class="fa fa-envelope"></i></a>
+                        </li>
+                        <li><a href="https://uk.linkedin.com/in/james-brooks-4aa3a944" style="background-color: #137BB8;"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                        <li><a href="https://www.facebook.com/developingcognition" style="background-color: #537BBE;"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="https://www.twitter.com/DevCognition/" style="background-color: #77CCF1;"><i class="fa fa-twitter"></i></a>
+                        </li>
+                    </ul>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -417,7 +430,7 @@ excerpt: Levelling Up 2016, a day of self-development workshops on habits, mindf
 
     <div class="row">
       <div class="col-md-10 col-md-offset-1 text-center" style="padding: 30px">
-        <a href="http://www.brownpapertickets.com/event/2491382" class="btn btn-xl">Tickets</a>
+        <a href="http://www.brownpapertickets.com/event/2491382" class="btn btn-xl" onclick="clickEvent('w-tickets-2')">Tickets</a>
       </div>
     </div>
 </section>
