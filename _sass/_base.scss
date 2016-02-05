@@ -162,7 +162,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-	background-image: url('../img/header-bg.jpg');
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.3)
+    ), url('../img/header-tedx.jpg');
 	background-repeat: none;
 	background-attachment: scroll;
 	background-position: center center;
@@ -185,8 +188,21 @@ header {
 			font-size: 50px;
 			line-height: 50px;
 			margin-bottom: 25px;
+			text-shadow: #333 0px 0px 1px, #333 0px 0px 1px, #333 0px 0px 1px, #333 0px 0px 1px, #333 0px 0px 1px, #333 0px 0px 1px;
+      color: #eee;
 		}
 	}
+}
+
+.header-presentation {
+	background-image: url('../img/header-presentation.jpg');
+}
+
+.header-tedx {
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.3)
+    ), url('../img/header-tedx.jpg');
 }
 
 @media(min-width:768px) {
