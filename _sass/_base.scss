@@ -66,12 +66,14 @@ h1, h2, h3, h4, h5, h6 {
 .btn-primary {
 	@include button-variant(white, $brand-primary, $brand-primary);
 	@include heading-font;
+	text-transform: uppercase;
 	font-weight: 700;
 }
 
 .btn-xl {
 	@include button-variant(white, $brand-primary, $brand-primary);
 	@include heading-font;
+	text-transform: uppercase;
 	font-weight: 700;
 	border-radius: 3px;
 	font-size: 18px;
@@ -111,6 +113,7 @@ h1, h2, h3, h4, h5, h6 {
     	li {
     		a {
     			@include heading-font;
+					text-transform: uppercase;
     			font-weight: 400;
     			letter-spacing: 1px;
     			color: white;
@@ -184,6 +187,7 @@ header {
 		}
 		.intro-heading {
 			@include heading-font;
+			text-transform: uppercase;
 			font-weight: 700;
 			font-size: 50px;
 			line-height: 50px;
@@ -219,6 +223,7 @@ header {
 			}
 			.intro-heading {
 				@include heading-font;
+				text-transform: uppercase;
 				font-weight: 700;
 				font-size: 75px;
 				line-height: 75px;
@@ -572,21 +577,25 @@ section#contact {
 	}
 	::-webkit-input-placeholder {
 	   @include heading-font;
+	 	 text-transform: uppercase;
 	   font-weight: 700;
 	   color: $placeholder-text;
 	}
 	:-moz-placeholder { /* Firefox 18- */
 	   @include heading-font;
+	 	 text-transform: uppercase;
 	   font-weight: 700;
 	   color: $placeholder-text;
 	}
 	::-moz-placeholder {  /* Firefox 19+ */
 	   @include heading-font;
+	 	 text-transform: uppercase;
 	   font-weight: 700;
 	   color: $placeholder-text;
 	}
 	:-ms-input-placeholder {
 	   @include heading-font;
+	 	 text-transform: uppercase;
 	   font-weight: 700;
 	   color: $placeholder-text;
 	}
