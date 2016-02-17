@@ -1,0 +1,17 @@
+
+
+.btn--cta {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  @include heading-font();
+  @include inuit-font-size(18px);
+  @extend .btn;
+  @extend .btn--large;
+}
+
+  .btn--cta:focus,
+  .btn--cta:hover {
+    border-color:  #871a1a;
+    background-color: #871a1a;
+  }

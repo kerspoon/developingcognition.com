@@ -2,10 +2,8 @@
 
 @mixin body-font() {
   font-family: "Average", "Helvetica Neue", Helvetica, serif;
-  font-weight: 300;
 }
 
 @mixin heading-font() {
   font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
 }

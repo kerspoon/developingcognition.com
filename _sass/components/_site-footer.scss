@@ -13,15 +13,10 @@
   @include inuit-font-size(14px);
   font-weight: normal;
   text-align: center;
+  color: white;
 }
 
-  .site-footer--copyright{
-    color: white;
-  }
-
   .site-footer--nav{
-    // text-transform: uppercase;
-    // letter-spacing: 1px;
 
     a {
       color: white;

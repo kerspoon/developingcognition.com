@@ -1,0 +1,33 @@
+
+
+.blockquote {
+  font-style: italic;
+
+  margin-left: 2 * $inuit-base-spacing-unit;
+  margin-left: (2 * $inuit-base-spacing-unit / $inuit-base-font-size) * 1rem;
+
+  margin-right: 2 * $inuit-base-spacing-unit;
+  margin-right: (2 * $inuit-base-spacing-unit / $inuit-base-font-size) * 1rem;
+}
+
+.blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 1.5em;
+  line-height: 0.1em;
+  vertical-align: -0.2em;
+}
+
+.blockquote:after {
+  color: #ccc;
+  content: close-quote;
+  font-size: 1.5em;
+  line-height: 0.1em;
+  vertical-align: -0.2em;
+}
+
+.quote-source {
+  display: block;
+  margin-bottom: $inuit-base-spacing-unit--small;
+  margin-bottom: ($inuit-base-spacing-unit--small / $inuit-base-font-size) * 1rem;
+}

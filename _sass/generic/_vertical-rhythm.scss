@@ -1,0 +1,8 @@
+
+.vertical-rhythm {
+  @extend %margin-bottom;
+}
+
+.kill-vertical-rhythm {
+  margin-bottom: 0;
+}
