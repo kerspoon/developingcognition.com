@@ -1,0 +1,11 @@
+/*------------------------------------*\
+    $SHAME-FILE
+\*------------------------------------*/
+
+// a fix for the fact that we have a sticky heaader covering the top 64 pixels.
+body {
+  margin-top: 0;
+  @include media-query(lap-and-up) {
+    margin-top: 64px; // magic number - go measure the header
+  }
+}

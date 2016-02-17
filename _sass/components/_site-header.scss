@@ -1,0 +1,82 @@
+/*------------------------------------*\
+    $SITE-HEADER
+\*------------------------------------*/
+/**
+ * The header and navigation of the site
+ */
+
+.site-header{
+  background-color: $brand-second;
+  padding: 20px;
+  @extend %clearfix;
+  @include heading-font();
+  width: 100%;
+
+  @include media-query(lap-and-up) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+  }
+}
+
+
+    .site-header--brand{
+      display: block;
+      color: $brand-color;
+      text-decoration: none;
+      @include inuit-font-size(21px);
+      @extend .vertical-rhythm;
+      text-align: center;
+      float: none;
+
+      @include media-query(lap-and-up) {
+        float: left;
+        margin-bottom: 0;
+        text-align: left;
+      }
+    }
+
+    .site-header--nav{
+      float: none;
+      @include inuit-font-size(14px);
+      font-weight: normal;
+
+      @extend .nav--banner;
+      @extend .nav--stacked;
+
+      @include media-query(lap-and-up) {
+        float: right;
+      }
+    }
+
+    .site-header--list{
+
+      @extend .nav;
+
+      margin-bottom: 0;
+
+      a{
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: white;
+        padding-left:  15px;
+        padding-right: 15px;
+        text-decoration: none;
+
+        @include media-query(lap-and-up) {
+          padding-left:  0;
+          padding-right: 10px;
+        }
+      }
+
+      a:hover,
+      a:focus{
+        color: $brand-color;
+        text-decoration: underline;
+      }
+    }
+
+    .site-header--list .site-header--li-active {
+      color: $brand-color;
+    }
