@@ -21,4 +21,4 @@ permalink: /articles/:title/
 
 gems:
   - jekyll-redirect-from
-  
+  - jekyll-sitemap
