@@ -1,0 +1,54 @@
+/*------------------------------------*\
+    $SITE-HEADER
+\*------------------------------------*/
+/**
+ * The header and navigation of the site
+ */
+
+.site-header{
+  background-color: $brand-second;
+  padding: 20px;
+  @extend %clearfix;
+  @include heading-font();
+}
+
+
+    .site-header--brand{
+      display: block;
+      float: left;
+      color: $brand-color;
+      text-decoration: none;
+      @include inuit-font-size(21px);
+    }
+
+    .site-header--nav{
+      float: right;
+      @include inuit-font-size(14px);
+      font-weight: normal;
+    }
+
+    .site-header--list{
+      list-style: none;
+      margin-left: 0;
+      margin-bottom: 0;
+
+      > li{
+
+        &,
+        > a{
+            display:inline-block;
+           *display:inline;
+            zoom:1;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: white;
+            padding-right: 10px;
+            text-decoration: none;
+        }
+      }
+      a:hover,
+      a:focus{
+        color: $brand-color;
+        text-decoration: underline;
+      }
+    }
