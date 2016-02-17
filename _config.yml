@@ -18,3 +18,7 @@ url: "http://developingcognition.com" # the base hostname & protocol for your si
 # Build settings
 markdown: kramdown
 permalink: /articles/:title/
+
+gems:
+  - jekyll-redirect-from
+  
