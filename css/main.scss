@@ -31,7 +31,9 @@
 @import "../node_modules/inuit-headings/base.headings";
 @import "base/headings";
 @import "base/page";
-
+@import "base/text";
+@import "base/img";
+@import "base/table";
 
 // Objects: Objects, abstractions, and design patterns (e.g. .media {}).
 @import "../node_modules/inuit-buttons/objects.buttons";

@@ -6,6 +6,11 @@
   @extend %margin-bottom;
 }
 
+.vertical-rhythm--large {
+  margin-bottom: $inuit-base-spacing-unit--large;
+  margin-bottom: ($inuit-base-spacing-unit--large / $inuit-base-font-size) * 1rem;
+}
+
 .kill-vertical-rhythm {
   margin-bottom: 0;
 }

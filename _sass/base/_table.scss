@@ -1,0 +1,22 @@
+/*------------------------------------*\
+    $TABLE
+\*------------------------------------*/
+
+.table-small {
+  width: 100%;
+  @include inuit-font-size(16px);
+  text-align: left;
+}
+
+.table-small th {
+  padding: 8px;
+  vertical-align: bottom;
+  border-top: none;
+  border-bottom: 2px solid #ddd;
+}
+
+.table-small td {
+  padding: 8px;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}

@@ -76,3 +76,7 @@
         text-decoration: underline;
       }
     }
+
+    .site-header--list .site-header--li-active {
+      color: $brand-color;
+    }

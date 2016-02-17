@@ -4,6 +4,7 @@ title:  "Mental Contrasting and Implementation Intentions"
 date:   2015-07-09 17:51:23 +0000
 categories: self-development
 description: Two techniques for taking an goal and making it much more achievable.
+section: articles
 ---
 
 There are some great techniques for taking an goal and making it much more achievable. Here we will talk about two techniques that are fantastically well support by research:
