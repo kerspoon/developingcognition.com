@@ -1,0 +1,65 @@
+/*------------------------------------*\
+    $PORTFOLIO
+\*------------------------------------*/
+
+
+.portfolio {
+  @extend .wrapper;
+  @extend .grid;
+}
+
+.portfolio--item {
+  @extend .grid__item;
+  @extend .one-third;
+  @extend .palm-one-whole;
+
+}
+
+a.portfolio--item {
+  // kill the styling if this happens to be a link
+  color: black;
+  text-decoration: none;
+}
+
+a.portfolio--item:hover,
+a.portfolio--item:focus {
+  color: $brand-color;
+
+  .portfolio--link > img {
+    border: 2px solid $brand-color;
+  }
+}
+
+%portfolio--center {
+  max-width: 400px;
+  margin: 0 auto;
+
+}
+
+.portfolio--link {
+  @extend %portfolio--center;
+}
+
+.portfolio--link > img {
+  width: 100%;
+}
+
+.portfolio--caption {
+  @extend %portfolio--center;
+  background-color: white;
+  text-align: center;
+  padding: $inuit-base-spacing-unit--small;
+}
+
+.portfolio--caption > h3 {
+  @include inuit-font-size(18px);
+  margin-bottom: $inuit-base-spacing-unit--small;
+}
+
+.portfolio--caption > p {
+  @include heading-font();
+  @include inuit-font-size(16px);
+  margin-bottom: 0;
+  font-style: italic;
+  color: $text-color-muted;
+}

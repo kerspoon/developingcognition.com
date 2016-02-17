@@ -1,0 +1,24 @@
+/*------------------------------------*\
+    $FORM-GROUP
+\*------------------------------------*/
+
+/*
+  show forms with their label on it's own line and the unput 100% of the width
+
+  <form>
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" name="name" required>
+    </div>
+  </form>
+
+*/
+
+.form-group > label {
+  display: block;
+}
+
+.form-group > input,
+.form-group > textarea {
+  width: 100%;
+}

@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<article class="section header-padding" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="section--title">
+    <h1 itemprop="name headline">{{ page.title }}</h1>
+    <p class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+    </p>
+  </header>
+
+  <div class="wrapper--narrow" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+</article>
+
+<div class="section section__grey kill-vertical-rhythm" id="mailing-list">
+  <div class="section--title">
+    <h2>Mailing List Sign Up</h2>
+  </div>
+  <div class=wrapper--narrow>
+    <p>
+      If you want to know about my next article before anyone else then this is how you do it. You can also keep up to
+      date by following me on <a href="https://www.twitter.com/DevCognition/">twitter</a> or by liking my
+      <a href="https://www.facebook.com/developingcognition">facebook</a> page.
+    </p>
+    {% include mailchimp-short-signup.html %}
+    <p>
+      If you ever change your mind you can unsubscribe easily with one click.
+    </p>
+  </div>
+</div>

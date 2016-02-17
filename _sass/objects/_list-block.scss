@@ -1,0 +1,26 @@
+/*------------------------------------*\
+    $LIST-BLOCK
+\*------------------------------------*/
+
+
+.list-block {
+    list-style:none;
+    margin-left:0;
+    @extend .clearfix;
+}
+
+.list-block > li:first-child {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.list-block > li:last-child {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.list-block > li {
+  display: block;
+  border: 1px solid #ddd;
+  padding: $inuit-base-spacing-unit--small;
+}

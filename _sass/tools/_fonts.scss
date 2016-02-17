@@ -1,0 +1,12 @@
+/*------------------------------------*\
+    $FONTS
+\*------------------------------------*/
+
+
+@mixin body-font() {
+  font-family: "Average", "Helvetica Neue", Helvetica, serif;
+}
+
+@mixin heading-font() {
+  font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
