@@ -44,6 +44,9 @@
 @import "objects/responsive-youtube-embed";
 @import "objects/sections";
 @import "objects/buttons";
+@import "objects/list-block";
+@import "objects/alert";
+@import "objects/next-section";
 
 
 // Components: Discrete, complete chunks of UI (e.g. .carousel {}). This is the one layer that inuitcss doesn’t get involved with.
@@ -53,6 +56,7 @@
 @import "components/hero";
 @import "components/portfolio";
 @import "components/mailchimp";
+@import "components/panel";
 
 
 // Trumps: High-specificity, very explicit selectors. Overrides and helper classes (e.g. .hidden {}).

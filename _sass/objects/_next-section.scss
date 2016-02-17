@@ -1,0 +1,24 @@
+/*------------------------------------*\
+    $NEXT-SECTION
+\*------------------------------------*/
+
+.next-section {
+  @extend .text-center;
+  text-decoration: none;
+  color:#B22222;
+}
+
+.next-section:focus,
+.next-section:hover {
+  text-decoration: underline;
+}
+
+.next-section > div {
+  text-decoration: underline;
+  font-size: 13pt;
+}
+
+.next-section > i {
+  display:block;
+  font-size: 50px;
+}
