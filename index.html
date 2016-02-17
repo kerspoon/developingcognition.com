@@ -120,19 +120,29 @@ layout: default
 </div> <!-- /quote -->
 
 
-<div class="section grid text-center wrapper--narrow" id="cta">
+<div class="section grid text-center wrapper" id="cta">
 
-    <div class="grid__item  one-half palm-one-whole">
+    <div class="grid__item  one-third palm-one-whole">
       <div class="vertical-rhythm">
-        <a class="btn btn--cta " href="/portfolio-and-clients">Portfolio and Clients</a>
+        <a class="btn btn--cta " href="/services-and-events">Services and Events</a>
       </div>
       <p class="text-left">
-        To find out the sort of work I do, and who I have done it for click through to
-        my <a href="/portfolio-and-clients">portfolio and clients</a>.
+        To find out the types of work I do, as well as the events I'm organising or speaking at - see my
+        <a href="/services-and-events">services and events</a>.
       </p>
     </div><!--
 
- --><div class="grid__item  one-half palm-one-whole">
+ --><div class="grid__item  one-third palm-one-whole">
+   <div class="vertical-rhythm">
+     <a class="btn btn--cta " href="/portfolio-and-clients">Portfolio and Clients</a>
+   </div>
+   <p class="text-left">
+     To find out the sort of work I've done, and who I've done it for click through to
+     my <a href="/portfolio-and-clients">portfolio and clients</a>.
+   </p>
+ </div><!--
+
+ --><div class="grid__item  one-third palm-one-whole">
      <div class="vertical-rhythm">
        <a class="btn btn--cta vertical-rhythm" href="/about-and-contact">About and Contact</a>
      </div>
@@ -143,3 +153,21 @@ layout: default
     </div>
 
 </div> <!-- CTA -->
+
+
+<div class="section section__grey kill-vertical-rhythm" id="mailing-list">
+  <div class="section--title">
+    <h2>Mailing List Sign Up</h2>
+  </div>
+  <div class=wrapper--narrow>
+    <p>
+      If you want to know about the events I'm putting on then this is how you do it. You can also keep up to
+      date by following me on <a href="https://www.twitter.com/DevCognition/">twitter</a> or by liking my
+      <a href="https://www.facebook.com/developingcognition">facebook</a> page.
+    </p>
+    {% include mailchimp-short-signup.html %}
+    <p>
+      If you ever change your mind you can unsubscribe easily with one click.
+    </p>
+  </div>
+</div>
