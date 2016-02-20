@@ -9,3 +9,14 @@ body {
     margin-top: 64px; // magic number - go measure the header
   }
 }
+
+// a fix for the fact that we have a sticky heaader covering the top 64 pixels.
+.anchor {
+  display: block;
+  position: relative;
+  visibility: hidden;
+
+  @include media-query(lap-and-up) {
+    top: -64px; // magic number - go measure the header
+  }
+}
