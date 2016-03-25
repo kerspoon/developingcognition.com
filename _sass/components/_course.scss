@@ -1,0 +1,29 @@
+/*------------------------------------*\
+    $COURSE
+\*------------------------------------*/
+
+.course-task {
+  border-left: 10px solid #ccc;
+
+  margin-left: 2 * $inuit-base-spacing-unit;
+  margin-left: (2 * $inuit-base-spacing-unit / $inuit-base-font-size) * 1rem;
+
+  padding-left: 2 * $inuit-base-spacing-unit--small;
+  padding-left: (2 * $inuit-base-spacing-unit--small / $inuit-base-font-size) * 1rem;
+
+  @extend .vertical-rhythm;
+}
+
+.course-video {
+  background-color: black;
+  width: 100%;
+  @extend .vertical-rhythm;
+}
+
+.course-info {
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: $inuit-base-spacing-unit--small;
+  @extend .vertical-rhythm;
+}

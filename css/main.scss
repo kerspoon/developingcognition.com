@@ -60,12 +60,14 @@
 @import "components/portfolio";
 @import "components/mailchimp";
 @import "components/panel";
+@import "components/course";
 
 
 // Trumps: High-specificity, very explicit selectors. Overrides and helper classes (e.g. .hidden {}).
 @import "trumps/widths";
 @import "../node_modules/inuit-clearfix/trumps.clearfix";
 @import "trumps/text-align";
+@import "trumps/sticky-header-hack";
 
 
 // Shame: The stuff I haven't yet bothered to sort out.
