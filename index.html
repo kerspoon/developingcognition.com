@@ -36,6 +36,8 @@ layout: default
     </ul>
     <p class=kill-vertical-rhythm>
       If you are interested then please <a href="about-and-contact/">get in touch</a>, we would be happy to hear from you.
+      You could also <a class="twitter-follow-button" href="https://twitter.com/DevCognition" data-show-count="false">
+      Follow @DevCognition</a> on twitter.
     </p>
   </div>
 </div> <!-- /who-are-we -->
@@ -178,3 +180,20 @@ layout: default
     </p>
   </div>
 </div>
+
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
